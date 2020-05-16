@@ -1,0 +1,267 @@
+/* 
+	Styled and Designed by
+	Amit Shavit
+	contact@engineercreativity.com
+	http://engineercreativity.com
+*/
+	
+* { padding: 0; margin: 0; }
+#page_wrap { position: relative; width: 1022px; background: url(images/shadow.png) repeat-y top left; text-align: right; margin: 0 auto; }
+p { direction: rtl; }
+
+.b { font-style: bold; }
+.i { font-style: italic; }
+.u { text-decoration: underline; }
+
+.main_table {
+	padding: 0;
+	margin: 0; 
+}
+#nav_table {
+	height: 50px;
+	width: 980px;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #004080;
+	background-color: #f0f9fd;
+}
+.clear {
+	clear: both;
+}
+/*
+	this is for the "Head to Top" headline
+*/
+.header_top {
+	font-size: 18px;
+	float: left;
+	display: block;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #004D98;
+}
+
+/* 
+	Header Propeties
+*/
+
+#header { height: 282px; width: 980px; border-bottom: 2px solid #3ED2FE; overflow: hidden; background: url(images/header_bg.jpg) repeat-x; position: relative; }
+
+#header_contact_info h1  { margin-top: 0px; margin-left: 40px; float: left; width: 444px; height: 282px; border-bottom: 0px; background: url(images/header_contact_info.jpg) no-repeat left top; }
+#header_contact_info h1 span { visibility: hidden; } /* to hide from IE and firefox */
+#header_contact_info  a { font-size: 26px; margin-left: 0px; position: absolute; top: 241px; left: 75px; color: #0065AD; text-decoration: underline; font-family: Arial, Helvetica, sans-serif; }
+#header_contact_info  a:hover { text-decoration: none; }
+
+
+#header_home { width: 373px; height: 282px; background: url(images/header_home.jpg) no-repeat top left; float: right; margin-right: 37px; margin-top: 0px; }
+#header_about_me { width: 235px; height: 282px; background: url(images/header_about_me.jpg) no-repeat top left; float: right; margin-right: 44px; margin-top: 0px; }
+#header_habilitation { width: 426px; height: 282px; background: url(images/header_habilitation.jpg) no-repeat top left; float: right; margin-right: 27px; margin-top: 0px; }
+#header_what_is_dementia { width: 426px; height: 282px; background: url(images/header_what_is_dementia.jpg) no-repeat top left; float: right; margin-right: 27px; margin-top: 0px; }
+#header_who_needs_help { width: 416px; height: 282px; background: url(images/header_who_needs_help.jpg) no-repeat top left; float: right; margin-right: 27px; margin-top: 0px; }
+#header_sources { width: 402px; height: 282px; background: url(images/header_sources.jpg) no-repeat top left; float: right; margin-right: 27px; margin-top: 0px; }
+#header_contact_me { width: 426px; height: 282px; background: url(images/header_contact_me.jpg) no-repeat top left; float: right; margin-right: 2px; margin-top: 2px; } 
+#header_partners { width: 297px; height: 282px; background: url(images/partners_pic.jpg) no-repeat top left; float: right; margin-right: 2px; margin-top: 2px; } 
+
+
+/*
+	Content
+*/
+
+#content {
+	margin: 0 21px; 
+	text-align: right;
+	width: 980px;
+}
+#main_content {
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	background-color: #fffffd;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#main_content a, #main_content a:link, #main_content a:visited {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #0075EA;
+}
+#main_content a:hover {
+	text-decoration: underline;
+}
+
+#main_content p {
+	text-align: right;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #004080;
+	line-height: 1.7em;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+#main_content p span#habilitation { font-size: 9px; line-height: 1em; }
+#main_content p span.home_page { line-height: 1.5em; }
+#index_contact_img { width: 181px; height: 42px; float: right; margin-left: 12px; margin-top: -5px; }
+
+/* CONTACT CLICK FORM */
+#contactClick { /*border: 1px solid #004080;*/ background: url(images/contactClickBg.jpg) no-repeat top right; padding: 5px; margin-left: 28px; height: 143px; float: left; width: 240px; margin-top: 10px; margin-right: 30px; height: 145px; }
+#contactClick h4 { text-align: center; font-family: Arial, Helvetica, sans-serif; border-bottom: 1px solid #000; padding-bottom: 3px; width: 215px; margin: 0 auto; font-size: 1.3em; }
+#contactClick_wrapper { margin-top: 10px; }
+#contactClick label { margin: 5px 10px; font-size: 1.5em; }
+.contactClick_field { border: 1px solid #004080; padding: 3px 2px; }
+#contactClick_submit { float: right; margin-top: 6px; background: #ffcc1e; color: #000000; font-size: 12px; border: solid 1px #86794f; }
+#contactClickTable { float: right; margin-top: -5px; }
+
+
+/* CONTACT PAGE */
+.contact_field { text-align: right; width: 213px; direction: rtl; font-family: Arial; font-size: 15px; }
+label { float: right; }
+/*#email { direction: ltr; text-align: left; }*/
+#contactTable input,#commentsTable textarea { color: gray; margin-bottom: 15px; border: solid 1px black; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; padding: 4px; }
+label { font-size: 16px; font-weight: bold; font-family: Arial; margin-left: 5px; margin-top: -15px; }
+#contactTable,#commentsTable { float: right; margin-right: 30px; }
+#commentsTable { clear: right; margin-top: 10px; }
+#comments { width: 313px; }
+#contact_form { border-left: solid 1px black; width: 463px; float: right; margin-bottom: 30px; }
+.button { border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: solid 1px black; cursor: pointer; float: right; margin-right: 32px; padding: 4px 40px; font-family: Arial; font-size: 16px; background: #0764B2; color: white;}
+.button:hover { background: #0e8dda; }
+.required { color: red; }
+#nameE,#phoneE { right: 361px; width: 100%; text-align: right; }
+#contact_form { position: relative; }
+
+/* form validation */
+.feedback { font-family: arial; position: absolute; font-size: 16px; font-weight: bold; color: #841a1a; line-height:23px;}
+.textError { border: solid 1px red; background-color: #F9F0C3; }
+textarea { overflow: auto; }
+
+.about_me_list {
+	list-style-type: none;
+	padding: 0px;
+	list-style-position: inside;
+	font-size: 18px;
+	line-height: 1.7em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	margin-right: 30px;
+	text-align: right;
+}
+.about_me_list li { border-bottom: 1px dashed #000; margin-bottom: 15px; margin-left: 20px; padding-bottom: 20px; }
+.about_me_author { margin-top: 7px; margin-right: 35px; }
+
+.habilitation_list { padding-left: 36px; list-style-position: outside; list-style-type: disc; font-size: 18px; line-height: 1.7em; font-family: Arial, Helvetica, sans-serif; color: #004080; margin-right: 60px; text-align: right;} 
+.habilitation_list li { margin-top: 0px; }
+
+#content h2 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	padding-right: 14px;
+	padding-bottom: 5px;
+	direction: rtl;
+	color: #333;
+}
+
+.content_list {
+	margin-right: 30px;
+	list-style-type: disc;
+	padding: 0px;
+	list-style-position: inside;
+	font-size: 18px;
+	line-height: 1.7em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #004080;
+}
+#sources_list {
+	margin-right: 36px;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #004080;
+	padding-left: 36px;
+	direction: rtl;
+	text-align: right;
+}
+
+#sources_list li {
+	margin-top: 10px;
+}
+#dementia_list {
+	margin-right: 58px;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #004080;	
+	direction: rtl;
+	text-align: right;
+}
+
+#dementia_list li {
+	margin-top: 5px;
+}
+#sources_english_list {
+	margin-left: 30px;
+	direction: ltr;
+	font-size: 18px;
+	line-height: 1.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #004080;
+	padding-right: 15px;
+	text-align: left;
+}
+#sources_english_list li {
+	margin-top: 10px;
+}
+
+#contact_pic {
+	float: left;
+	margin-left: 60px;
+	margin-top: 0px;
+}
+}
+
+/*
+	TOC
+*/
+ul#TOC { list-style-type: none; margin-right: 30px; } 
+ul#TOC li { direction: rtl; margin-top: 10px; text-align: right; margin-right: 20px; list-style-type: none; }
+
+
+#footer {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+	padding: 0;
+	background-color: #e8e8e8;
+	margin: 0;
+}
+#footer p {
+	text-align: center;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	vertical-align: middle;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PARTNERS */
+ul#partners { list-style-type: none; direction: rtl; margin-right: 20px; margin-top: 25px; }
+.partners_img { float: right; width: 120px; height: 90px; border: 1px solid #ccc; margin-left: 20px; }
+ul#partners li { margin-bottom: 10px; border-bottom: 1px dashed #000; font-size: 1.5em; padding-bottom: 10px; margin-left: 30px; line-height: 1.3em; }
+.toTop { margin: 15px 45px 10px 0; color: maroon !important; zoom:1; }

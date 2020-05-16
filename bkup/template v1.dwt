@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Alzheimer's Family Coaching</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<link href="../main.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../dropdown.css" type="text/css" />
+<script type="text/javascript" src="dropdown.js"></script>
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<!-- TemplateBeginEditable name="body" -->
+<div id="content">
+<table width="1024" border="0" cellpadding="0" cellspacing="0" class="main_table">
+  <tr>
+    <td><img src="../images/header.bmp" /></td>
+  </tr>
+  <tr>
+    <td>
+      <!-- Right Navigation Menu Start -->
+      <div id="main_nav">
+        <ul>
+          <li><a href="#">(שלום רב) הבית דף</a></li>
+          <li><a href="#">אודותי</a></li>
+          <li><a href="#">דימנציה מהי</a></li>
+          <li><a href="#">להדרכה זקוק מי</a></li>
+          <li><a href="#">הפילוסופיה</a></li>
+          <li><a href="#">רשימת ספרים</a></li>
+          <li><a href="#">צירת קשר</a></li>
+        </ul>
+      </div>
+      <!-- Right Navigation Menu End -->    </td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;s s</td>
+  </tr>
+</table>
+
+
+</div>
+<!-- TemplateEndEditable -->
+</body>
+</html>
